@@ -65,18 +65,6 @@
                 class="absolute size-full object-cover select-none"
                 :src="work.imageBg"
               />
-              <div
-                class="flex-center z-10 aspect-4/3 size-full overflow-clip rounded-lg object-cover"
-              >
-                <video
-                  ref="videoRefs"
-                  :src="work.videoSrc"
-                  muted
-                  :autoplay="false"
-                  type="video/webm"
-                  class="size-[80%] rounded-md object-contain blur transition-all duration-500 ease-in-out"
-                ></video>
-              </div>
             </div>
             <div>
               <p class="heading-6 font-title! mt-[2%] mb-[1%] leading-none">
@@ -144,38 +132,38 @@
     {
       name: 'Tesseract',
       category: 'AI SaaS Dashboard & Admin Tools',
-      tags: ['Tailwind', 'JavaScript', 'AI'],
+      tags: ['Tailwind', 'JavaScript', 'AI', 'Figma', 'UI/UX'],
       videoSrc: work1,
       imageBg: workBg1,
       url: 'https://tesseract.adlift.com',
       year: '2024',
     },
     {
-      name: 'Dream Holiday',
-      category: 'Responsive Travel Website',
-      tags: ['HTML', 'CSS', 'Responsive'],
+      name: 'Wood Masterr',
+      category: 'E-Commerce Furniture Showcase',
+      tags: ['React', 'E-Commerce', 'Responsive', 'Figma', 'UI/UX'],
       videoSrc: work2,
-      imageBg: workBg2,
-      url: '#',
+      imageBg: 'https://wood-masterr.netlify.app/assets/pexels-fotografiagmazg-18707990_11zon.jpg',
+      url: 'https://wood-masterr.netlify.app/',
       year: '2024',
     },
     {
-      name: 'CreatorTag',
-      category: 'Product Website & Cross-Platform UI',
-      tags: ['UI/UX', 'Cross-Platform'],
+      name: 'Dream Holiday',
+      category: 'Travel & Tourism Platform',
+      tags: ['Travel', 'Booking', 'Responsive', 'Figma', 'UI/UX'],
       videoSrc: work3,
-      imageBg: workBg3,
-      url: '#',
+      imageBg: 'https://dream-holiday-solution.netlify.app/Assests/TRAVEL-PACKAGE.jpg',
+      url: 'https://dream-holiday-solution.netlify.app/',
       year: '2024',
     },
     {
-      name: 'SATO',
-      category: 'UI Performance & Responsiveness',
-      tags: ['Performance', 'Responsive'],
+      name: 'ContentLift',
+      category: 'SEO & Link Building Platform',
+      tags: ['SaaS', 'Dashboard', 'Analytics', 'Figma', 'UI/UX'],
       videoSrc: work4,
       imageBg: workBg4,
-      url: '#',
-      year: '2022',
+      url: 'https://contentlift.adlift.com/',
+      year: '2025',
     },
   ];
 
