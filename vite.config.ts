@@ -17,8 +17,7 @@ export default defineConfig({
     vue(),
     robots(),
     sitemap({
-      hostname: process.env.SITE_URL || 'https://example.com',
-      basePath: '/',
+      hostname: process.env.SITE_URL?.replace(/\/+$/, '') || 'https://tawqeer-khursheed.netlify.app',
       changefreq: 'hourly', // default: 'daily'
       priority: 1,
     }),
