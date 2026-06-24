@@ -28,7 +28,7 @@
         <div
           class="mt-[5%] flex scale-150 items-center lg:scale-[1.5] xl:scale-[3] 2xl:scale-[3.5]"
         >
-          <Button label="Get in touch" url="https://wa.me/919596504336" />
+          <Button label="Get in touch" url="mailto:Tawqeerkhursheed7@gmail.com" />
         </div>
       </div>
       <div

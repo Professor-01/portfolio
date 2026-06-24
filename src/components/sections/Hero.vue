@@ -49,7 +49,7 @@
 
             <div class="relative origin-left overflow-hidden sm:scale-150">
               <div id="contact-btn" class="flex -translate-y-full">
-                <Button label="Get in touch" url="https://wa.me/919596504336" />
+                <Button label="Get in touch" url="#contact-section" />
               </div>
             </div>
           </div>
