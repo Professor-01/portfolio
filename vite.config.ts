@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/portfolio/',
+  base: '/',
   build: {
     sourcemap: false,
     // terserOptions:
@@ -17,8 +17,8 @@ export default defineConfig({
     vue(),
     robots(),
     sitemap({
-      hostname: '#', // Update this to your production URL when ready
-      basePath: 'portfolio',
+      hostname: process.env.SITE_URL || 'https://example.com',
+      basePath: '/',
       changefreq: 'hourly', // default: 'daily'
       priority: 1,
     }),
