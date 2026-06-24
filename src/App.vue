@@ -63,7 +63,6 @@
 <script setup lang="ts">
   import {
     Hero,
-    People,
     Services,
     Works,
     aboutMe,
