@@ -17,7 +17,7 @@ export default defineConfig({
     vue(),
     robots(),
     sitemap({
-      hostname: '#', // Update this to your production URL when ready
+      hostname: 'https://tawqeer-khursheed.netlify.app',
       basePath: 'portfolio',
       changefreq: 'hourly', // default: 'daily'
       priority: 1,
